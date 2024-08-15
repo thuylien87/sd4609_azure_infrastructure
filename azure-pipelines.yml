@@ -3,7 +3,7 @@ trigger:
 
 variables:
   dockerRegistryServiceConnection: 'http://azurecontainerregistrydocker.azurecr.io'
-  imageRepository: '<IMAGE_NAME>'
+  imageRepository: 'Docker'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
